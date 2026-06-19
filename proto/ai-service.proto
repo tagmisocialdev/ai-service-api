@@ -1,0 +1,14 @@
+syntax = "proto3";
+package tagmi.ai.service;
+
+import "common.proto";
+
+// Basic health service and placeholders for gRPC methods
+service ai_serviceService {
+  rpc Health(tagmi.common.HealthReq) returns (tagmi.common.HealthResp) {}
+  // Define your service RPCs here. Example:
+  // rpc GetStatus(StatusReq) returns (StatusResp) {}
+}
+
+// Message placeholders
+message Empty {}

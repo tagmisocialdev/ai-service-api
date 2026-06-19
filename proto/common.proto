@@ -1,0 +1,5 @@
+syntax = "proto3";
+package tagmi.common;
+
+message HealthReq {}
+message HealthResp { string status = 1; }
